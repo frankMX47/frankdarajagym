@@ -7,7 +7,7 @@ $callbackurl = 'https://1c95-105-161-14-223.ngrok-free.app/frankdarajagym/callba
 $passkey = "bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919";
 $BusinessShortCode = '174379';
 $Timestamp = date('YmdHis');
-// ENCRyPT  DATA TO GET PASSWORD
+// ENCRYPT  DATA TO GET PASSWORD
 $Password = base64_encode($BusinessShortCode . $passkey . $Timestamp);
 $phone = '254790289622';//phone number to receive the stk push
 $money = '1';
